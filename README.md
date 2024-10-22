@@ -11,6 +11,8 @@ to a video file. The provided text prompt is 'raining with rainbow'. This script
 features and efficient scheduling to optimize video generation.
 
 --**streamlit run app.py**
+
+
 Open the application in your web browser.
 Click the 'Record' button to start recording audio.
 Speak into the microphone for the desired duration.
