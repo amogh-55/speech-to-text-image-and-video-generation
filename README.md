@@ -1,12 +1,16 @@
 Make sure you have installed all the required dependencies like diffusers, transformers, accelerate, and torch using pip or another package manager.
 Ensure that your system setup in VS Code supports GPU acceleration if you're relying on it. 
-Replace "/tmp" from the video path. If you're running the code on VS Code and "/tmp" is not a relevant path in your system, you might need to adjust this part of the code according to your file system structure.
+
+
+--Replace "/tmp" from the video path. If you're running the code on VS Code and "/tmp" is not a relevant path in your system, you might need to adjust this part of the code according to your file system structure.
+
+
 This code generates a video from text using the Diffusers library. It initializes a DiffusionPipeline 
 from a pre-trained model and processes a text prompt to create video frames. These frames are then exported 
 to a video file. The provided text prompt is 'raining with rainbow'. This script utilizes acceleration 
 features and efficient scheduling to optimize video generation.
 
-streamlit run app.py
+--**streamlit run app.py**
 Open the application in your web browser.
 Click the 'Record' button to start recording audio.
 Speak into the microphone for the desired duration.
